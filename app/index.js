@@ -1,1 +1,1 @@
-console.log('mokum..');
+console.log('mokum');
