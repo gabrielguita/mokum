@@ -1,0 +1,81 @@
+export const data = [{
+  "id": 1,
+  "first_name": "Gary",
+  "last_name": "Ramos",
+  "email": "gramos0@rakuten.co.jp",
+  "gender": "Male",
+  "ip_address": "81.178.121.195",
+  "status": true
+}, {
+  "id": 2,
+  "first_name": "Nicole",
+  "last_name": "Harris",
+  "email": "nharris1@yale.edu",
+  "gender": "Female",
+  "ip_address": "212.40.175.73",
+  "status": true
+}, {
+  "id": 3,
+  "first_name": "Julie",
+  "last_name": "Meyer",
+  "email": "jmeyer2@house.gov",
+  "gender": "Female",
+  "ip_address": "242.159.59.57",
+  "status": false
+}, {
+  "id": 4,
+  "first_name": "Jonathan",
+  "last_name": "Taylor",
+  "email": "jtaylor3@economist.com",
+  "gender": "Male",
+  "ip_address": "238.44.172.31",
+  "status": false
+}, {
+  "id": 5,
+  "first_name": "Benjamin",
+  "last_name": "Mendoza",
+  "email": "bmendoza4@google.pl",
+  "gender": "Male",
+  "ip_address": "25.128.148.212",
+  "status": false
+}, {
+  "id": 6,
+  "first_name": "Nancy",
+  "last_name": "Black",
+  "email": "nblack5@thetimes.co.uk",
+  "gender": "Female",
+  "ip_address": "14.139.56.27",
+  "status": true
+}, {
+  "id": 7,
+  "first_name": "Donald",
+  "last_name": "Gray",
+  "email": "dgray6@unc.edu",
+  "gender": "Male",
+  "ip_address": "190.205.223.108",
+  "status": true
+}, {
+  "id": 8,
+  "first_name": "Roy",
+  "last_name": "Olson",
+  "email": "rolson7@biglobe.ne.jp",
+  "gender": "Male",
+  "ip_address": "224.222.18.14",
+  "status": false
+}, {
+  "id": 9,
+  "first_name": "Russell",
+  "last_name": "Henderson",
+  "email": "rhenderson8@latimes.com",
+  "gender": "Male",
+  "ip_address": "10.122.144.234",
+  "status": false
+}, {
+  "id": 10,
+  "first_name": "Ruth",
+  "last_name": "Stone",
+  "email": "rstone9@newsvine.com",
+  "gender": "Female",
+  "ip_address": "1.191.121.108",
+  "status": true
+}]

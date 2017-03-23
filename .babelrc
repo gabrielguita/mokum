@@ -5,18 +5,20 @@
         "browsers": ["last 2 versions", "safari >= 7"]
       }
     }],
-    "react",
-    "es2015",
-    "stage-0"
+    ["es2015", {"modules": false}],
+    "stage-0",
+    "react"
   ],
-  "plugins": [],
+  "plugins": ["lodash", "add-module-exports"],
   "env": {
     "test" : {
       "plugins":[
         ["module-resolver", {
           "root": ["./app"]
         }],
-        ["transform-runtime"]]
+        "transform-es2015-modules-commonjs",
+        "transform-runtime"
+      ]
     },
     "development": {
       "plugins": ["transform-runtime"],
