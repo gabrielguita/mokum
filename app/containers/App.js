@@ -6,9 +6,9 @@ import {Orders} from 'containers'
 /*
 * Navigation
 * Router
-*       <OrderList />
-
- * */
+* <OrderList />
+*
+*/
 
 
 const App = React.createClass({
