@@ -1,11 +1,12 @@
 import React from 'react'
+import {header, userName} from './../style.scss'
 
-const Navigation  = React.createClass({
+const Navigation = React.createClass({
   render() {
     return (
-      <div className="header" style={{'width': '100%'}}>
+      <div className={header}>
         {`logo`}
-        <div style={{'float': 'right'}}>
+        <div className={userName}>
           {`User Name`}
         </div>
       </div>

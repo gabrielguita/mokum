@@ -1,8 +1,8 @@
 import React, {PropTypes} from 'react'
-
+import {orderComponent, row} from './../style.scss'
 const InputField = ({label, name, value, placeholder, handleChange}) => {
   return (
-    <div>
+    <div className={row}>
       <label>{label}</label>
       <input type='text' name={name} onChange={(e) => handleChange(e)} value={value} placeholder={placeholder} />
     </div>
@@ -41,7 +41,7 @@ const Order = React.createClass({
   },
   render () {
     return (
-      <div className="order-component">
+      <div className={orderComponent}>
           <form>
               <InputField name={'first_name'} label={'Name'} value={this.state.order['first_name']} placeholder={`Name goes here`} handleChange={this.handleChange} />
               <InputField name={'last_name'} label={'Last Name'} value={this.state.order['last_name']} placeholder={`Last Name goes here`} handleChange={this.handleChange} />

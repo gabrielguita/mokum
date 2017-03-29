@@ -2,7 +2,7 @@ import React from 'react'
 import {Navigation} from 'components'
 import {OrderList} from 'containers'
 import {Orders} from 'containers'
-
+import {main} from './../style.scss'
 /*
 * Navigation
 * Router
@@ -10,10 +10,9 @@ import {Orders} from 'containers'
 *
 */
 
-
 const App = React.createClass({
   render () {
-    return (<div className="main" style={{'width': '1024px', 'margin': '0 auto'}}>
+    return (<div className={main}>
       <Navigation />
       <Orders />
     </div>)

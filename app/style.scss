@@ -1,0 +1,63 @@
+.main{
+  width: 1024px;
+  margin: 0 auto;
+  font-size: 14px;
+}
+
+.header{
+  border-bottom: solid 1px #ccc;
+  height: 80px;
+  padding: 15px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.userName{ float: right; }
+
+.usersList{
+  padding: 1em 0;
+}
+
+.usersDetails{
+  width: 100%;
+  display: block;
+  .details{
+      float: left;
+      width: 20%;
+  }
+}
+
+.orderComponent{
+  max-width: 250px;
+  margin: 0 auto;
+  button{
+    border: solid 1px #9a9a9a;
+    padding: 7px 15px;
+    background: transparent;
+    float: right;
+    border-radius: 2px;
+    color: #222;
+    &:hover{
+      color: #fff;
+      background: #222;
+      cursor: pointer;
+    }
+  }
+  label{
+    font-size: 14px;
+  }
+  input{
+    padding: 2px 4px;
+    border-radius: 3px;
+    box-shadow: none;
+    border-style: ridge;
+    float: right;
+  }
+}
+
+.row{
+  margin-bottom: 7px;
+  line-height: 25px;
+}
