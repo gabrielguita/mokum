@@ -47,11 +47,17 @@ export default {
   postcss: [autoprefixer],
   devtool: 'cheap-module-inline-source-map',
   devServer: {
-    contentBase: PATHS.build,
+    historyApiFallback: true,
+    host: '0.0.0.0',
     hot: true,
     inline: true,
     progress: true,
     quiet: true,
+    watchOptions: {
+      aggregateTimeout: 300,
+      poll: 300,
+    },
+    contentBase: PATHS.build,
   },
   debug: true,
   noInfo: true,

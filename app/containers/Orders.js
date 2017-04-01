@@ -19,6 +19,9 @@ InputField.propTypes = {
 
 // TODO: Create a Select input for status
 const Order = React.createClass({
+  propsTypes: {
+    id: PropTypes.string,
+  },
   getInitialState () {
     return {
       order: {
@@ -42,12 +45,15 @@ const Order = React.createClass({
   render () {
     return (
       <div className="order-component">
-          <form>
-              <InputField name={'first_name'} label={'Name'} value={this.state.order['first_name']} placeholder={`Name goes here`} handleChange={this.handleChange} />
-              <InputField name={'last_name'} label={'Last Name'} value={this.state.order['last_name']} placeholder={`Last Name goes here`} handleChange={this.handleChange} />
-              <InputField name={'ip_address'} label={'Ip Address'} value={this.state.order['ip_address']} placeholder={`IP Address`} handleChange={this.handleChange} />
-              <button type='submit' onClick={(e) => this.submitOrder(e)}>{`Submit`}</button>
-          </form>
+          <fieldset>
+            <legend>{`ID: ${this.props.id}`}</legend>
+            <form>
+                <InputField name={'first_name'} label={'Name'} value={this.state.order['first_name']} placeholder={`Name goes here`} handleChange={this.handleChange} />
+                <InputField name={'last_name'} label={'Last Name'} value={this.state.order['last_name']} placeholder={`Last Name goes here`} handleChange={this.handleChange} />
+                <InputField name={'ip_address'} label={'Ip Address'} value={this.state.order['ip_address']} placeholder={`IP Address`} handleChange={this.handleChange} />
+                <button type='submit' onClick={(e) => this.submitOrder(e)}>{`Submit`}</button>
+            </form>
+          </fieldset>
       </div>
     )
   }
