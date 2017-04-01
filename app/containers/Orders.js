@@ -37,7 +37,7 @@ const Order = React.createClass({
     })
   },
   submitOrder () {
-    // console.log(this.state.order)
+    console.log(this.state.order)
   },
   render () {
     return (

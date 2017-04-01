@@ -15,7 +15,7 @@ const App = React.createClass({
   render () {
     return (<div className="main" style={{'width': '1024px', 'margin': '0 auto'}}>
       <Navigation />
-      <Orders />
+      {this.props.children}
     </div>)
   }
 })
