@@ -62,5 +62,3 @@ reactjs - mokum
     * Create Services Layer / Mananing Async Operations (redux-saga)
     * Testing
     * Persist data?? Maybe.
-
-
