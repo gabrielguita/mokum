@@ -48,7 +48,7 @@
       "inline-manifest-webpack-plugin": "^3.0.1",
       "jest-cli": "^17.0.2",
       "last-release-git": "^0.0.2",
-      "node-sass": "^3.13.0",
+      "node-sass": "^7.0.0",
       "npm-check": "^5.4.0",
       "npm-run-all": "^3.1.1",
       "nsp": "^2.6.2",
